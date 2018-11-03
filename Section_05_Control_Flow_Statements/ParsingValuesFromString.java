@@ -1,0 +1,14 @@
+public class ParsingValuesFromString {
+    public static void main(String[] args) {
+        String numberAsString = "2018";
+        System.out.println("numberAsString: " + numberAsString);
+
+        int numberAsInt = Integer.parseInt(numberAsString);
+        System.out.println("numberAsInt: " + numberAsInt);
+
+        numberAsString += 1;
+        numberAsInt += 1;
+        System.out.println("numberAsString: " + numberAsString);
+        System.out.println("numberAsInt: " + numberAsInt);
+    }
+}
