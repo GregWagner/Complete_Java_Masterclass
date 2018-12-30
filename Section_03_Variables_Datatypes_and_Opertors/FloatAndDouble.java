@@ -3,15 +3,14 @@ public class FloatAndDouble {
 
         // width of a int = 32 (4 bytes)
         int myIntValue = 5 / 3;
+        System.out.println("myIntValue = " + myIntValue);
 
         // width of a float = 32 (4 bytes)
         float myFloatValue = 5.0f / 3.0f;
+        System.out.println("myFloatValue = " + myFloatValue);
 
         // width of a double = 64 (8 bytes)
         double myDoubleValue = 5.0 / 3.0;
-
-        System.out.println("myIntValue = " + myIntValue);
-        System.out.println("myFloatValue = " + myFloatValue);
         System.out.println("myDoubleValue = " + myDoubleValue);
 
         // Challenge
