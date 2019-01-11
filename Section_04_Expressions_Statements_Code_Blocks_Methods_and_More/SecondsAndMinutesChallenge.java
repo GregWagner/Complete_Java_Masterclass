@@ -8,14 +8,20 @@ public class SecondsAndMinutesChallenge {
         System.out.println(getDurationString(61));
         System.out.println(getDurationString(-61));
     }
+
+    private static boolean isValidTime(int minutes, int seconds) {
+        return minutes >= 0 && seconds >= 0 && seconds < 60;
+    }
     
     public static String getDurationString(int minutes, int seconds) {
-        if ((minutes >= 0) && (seconds >= 0) && (seconds <= 59)) {
-            int hours = minutes / 60;
-            minutes %= 60;
-            return hours + "h " + minutes + "m " + seconds + "s";
-        } 
-        return "Invalid value";
+        if (!isValidTime(minutes, seconds)) {
+            return "Invalid value";
+        }
+        int hours = minutes / 60;
+        minutes %= 60;
+        return (hours < 10 ? "0" : "") + hours + "h " + 
+            (minutes < 10 ? "0" : "") + minutes + "m " + 
+            (seconds < 10 ? "0" : "") + seconds + "s";
     }
 
     public static String getDurationString(int seconds) {
