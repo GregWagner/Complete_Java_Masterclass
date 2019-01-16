@@ -8,7 +8,7 @@ public class ReadingUserInput {
         boolean hasNextInt = input.hasNextInt();
         if (hasNextInt) {
             int birthYear = input.nextInt();
-            input.nextLine();
+            input.nextLine();       // go over line seperator
 
             System.out.print("Enter your name: ");
             String name = input.nextLine();
@@ -24,7 +24,6 @@ public class ReadingUserInput {
         } else {
             System.out.println("Unable to parse birth year");
         }
-
         input.close();
     }
 }
