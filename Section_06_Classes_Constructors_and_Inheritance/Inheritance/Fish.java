@@ -1,6 +1,6 @@
 public class Fish extends Animal {
     private int gills;
-    privte int eyes;
+    private int eyes;
     private int finns;
 
     public Fish(String name, int size, int weight, int gills, int eyes, int finns) {
@@ -22,6 +22,6 @@ public class Fish extends Animal {
     private void swim(int speed) {
         moveMuscles();
         moveBackFin();
-        suport move(speed);
+        super.move(speed);
     }
 }

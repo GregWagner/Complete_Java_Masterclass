@@ -1,9 +1,13 @@
 public class BankAccount {
     private int accountNumber;
-    double balance;
+    private double balance;
     private String name;
     private String email;
     private String phoneNumber;
+
+    public BankAccount() {
+        this(0, 0.0, "Unknown", "Unknown", "Unknown");
+    }
 
     public BankAccount(int accountNumber, double balance, String name,
             String email, String phoneNumber) {
@@ -36,6 +40,7 @@ public class BankAccount {
                     "Remaining balance: %.2f.%n", amount, getBalance());
         }
     }
+
     public int getAccountNumber() {
         return accountNumber;
     }

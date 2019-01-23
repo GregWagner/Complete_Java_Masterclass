@@ -6,6 +6,7 @@ public class Pinto extends Car {
         this.roadServiceMonths = roadServiceMonths;
     }
 
+    // note this method should check the number of gears available
     public void accelerate(int rate) {
         int newVelocity = getCurrentVelocity() + rate;
         if (newVelocity == 0) {

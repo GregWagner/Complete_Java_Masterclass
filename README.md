@@ -8,3 +8,7 @@
               48/386 (13% Completed)  
 01/16/2018  - Started and completed Section 5
               77/386 (20% Completed)  
+01/18/2018  - Started and completed Section 6
+              91/386 (24% Completed)  
+01/23/2018  - Started and completed Section 7
+              100/386 (26% Completed)  

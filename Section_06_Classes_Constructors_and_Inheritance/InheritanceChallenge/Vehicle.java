@@ -14,7 +14,7 @@ public class Vehicle {
     }
 
     public void steer(int direction) {
-        this.currentDirection += direction;
+        currentDirection += direction;
         System.out.println("Vehicle.steer(): Steering at " + currentDirection);
     }
 

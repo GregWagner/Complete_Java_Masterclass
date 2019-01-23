@@ -3,6 +3,7 @@ public class Car extends Vehicle {
     private int door;
     private boolean isManual;
     private int gears;
+
     private int currentGear;
 
     public Car(String name, String size, int wheels, int door,
