@@ -45,9 +45,9 @@ public class Methods {
         return finalScore;
     }
 
-    private static void displayHighScorePosition(String playerName, int position) {
+    private static void displayHighScorePosition(String name, int position) {
         System.out.printf("%s managed to get into position %d " +
-                "on the high score table%n", playerName, position);
+                "on the high score table%n", name, position);
     }
 
     private static int calculateHighScorePosition(int playerScore) {

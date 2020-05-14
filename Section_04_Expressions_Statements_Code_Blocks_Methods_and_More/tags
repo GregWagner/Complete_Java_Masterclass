@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+AreaCalculator	old/Exercises/AreaCalculator.java	/^public class AreaCalculator {$/;"	c
+BarkingDog	old/Exercises/BarkingDog.java	/^public class BarkingDog {$/;"	c
+DecimalComparator	old/Exercises/DecimalComparator.java	/^public class DecimalComparator {$/;"	c
+EqualSumChecker	old/Exercises/EqualSumChecker.java	/^public class EqualSumChecker {$/;"	c
+IfKeywordAndCodeBlocks	IfKeywordAndCodeBlocks.java	/^public class IfKeywordAndCodeBlocks {$/;"	c
+IntEqualityPrinter	old/Exercises/IntEqualityPrinter.java	/^public class IntEqualityPrinter {$/;"	c
+KeywordsAndExpressions	KeywordsAndExpressions.java	/^public class KeywordsAndExpressions {$/;"	c
+LeapYear	old/Exercises/LeapYear.java	/^public class LeapYear {$/;"	c
+MegaBytesConverter	old/Exercises/MegaBytesConverter.java	/^public class MegaBytesConverter {$/;"	c
+MethodOverloading	old/MethodOverloading.java	/^public class MethodOverloading {$/;"	c
+Methods	Methods.java	/^public class Methods {$/;"	c
+MinutesToYearsDaysCalculator	old/Exercises/MinutesToYearsDaysCalculator.java	/^public class MinutesToYearsDaysCalculator {$/;"	c
+PlayingCat	old/Exercises/PlayingCat.java	/^public class PlayingCat {$/;"	c
+SecondsAndMinutesChallenge	old/SecondsAndMinutesChallenge.java	/^public class SecondsAndMinutesChallenge {$/;"	c
+StatementsWhiteSpaceAndIndenting	StatementsWhiteSpaceAndIndenting.java	/^public class StatementsWhiteSpaceAndIndenting {$/;"	c
+TeenNumberChecker	old/Exercises/TeenNumberChecker.java	/^public class TeenNumberChecker {$/;"	c
+areEqualByThreeDecimalPlaces	old/Exercises/DecimalComparator.java	/^    public static boolean areEqualByThreeDecimalPlaces(double x, double y) {$/;"	m	class:DecimalComparator
+area	old/Exercises/AreaCalculator.java	/^    public static double area(double radius) {$/;"	m	class:AreaCalculator
+area	old/Exercises/AreaCalculator.java	/^    public static double area(double x, double y) {$/;"	m	class:AreaCalculator
+bark	old/Exercises/BarkingDog.java	/^    public static boolean bark(boolean barking, int hourOfDay) {$/;"	m	class:BarkingDog
+calcFeetAndInchesToCentimeters	old/MethodOverloading.java	/^    private static double calcFeetAndInchesToCentimeters(int feet, int inches) {$/;"	m	class:MethodOverloading	file:
+calcFeetAndInchesToCentimeters	old/MethodOverloading.java	/^    private static double calcFeetAndInchesToCentimeters(int inches) {$/;"	m	class:MethodOverloading	file:
+calculateHighScorePosition	Methods.java	/^    private static int calculateHighScorePosition(int playerScore) {$/;"	m	class:Methods	file:
+calculateScore	Methods.java	/^    private static int calculateScore(boolean gameOver, int score,$/;"	m	class:Methods	file:
+calculateScore	old/MethodOverloading.java	/^    private static int calculateScore() {$/;"	m	class:MethodOverloading	file:
+calculateScore	old/MethodOverloading.java	/^    private static int calculateScore(String playerName, int score) {$/;"	m	class:MethodOverloading	file:
+calculateScore	old/MethodOverloading.java	/^    private static int calculateScore(int score) {$/;"	m	class:MethodOverloading	file:
+displayHighScorePosition	Methods.java	/^    private static void displayHighScorePosition(String name, int position) {$/;"	m	class:Methods	file:
+getDurationString	old/SecondsAndMinutesChallenge.java	/^    public static String getDurationString(int minutes, int seconds) {$/;"	m	class:SecondsAndMinutesChallenge
+getDurationString	old/SecondsAndMinutesChallenge.java	/^    public static String getDurationString(int seconds) {$/;"	m	class:SecondsAndMinutesChallenge
+hasEqualSum	old/Exercises/EqualSumChecker.java	/^    public static boolean hasEqualSum(int x, int y, int answer) {$/;"	m	class:EqualSumChecker
+hasTeen	old/Exercises/TeenNumberChecker.java	/^    public static boolean hasTeen(int x, int y, int z) {$/;"	m	class:TeenNumberChecker
+isCatPlaying	old/Exercises/PlayingCat.java	/^    public static boolean isCatPlaying(boolean summer, int temperature) {$/;"	m	class:PlayingCat
+isLeapYear	old/Exercises/LeapYear.java	/^    public static boolean isLeapYear(int year) {$/;"	m	class:LeapYear
+isValidTime	old/SecondsAndMinutesChallenge.java	/^    private static boolean isValidTime(int minutes, int seconds) {$/;"	m	class:SecondsAndMinutesChallenge	file:
+main	IfKeywordAndCodeBlocks.java	/^    public static void main(String[] args) {$/;"	m	class:IfKeywordAndCodeBlocks
+main	KeywordsAndExpressions.java	/^    public static void main(String[] args) {$/;"	m	class:KeywordsAndExpressions
+main	Methods.java	/^    public static void main(String[] args) {$/;"	m	class:Methods
+main	StatementsWhiteSpaceAndIndenting.java	/^    public static void main(String[] args) {$/;"	m	class:StatementsWhiteSpaceAndIndenting
+main	old/Exercises/AreaCalculator.java	/^    public static void main(String[] args) {$/;"	m	class:AreaCalculator
+main	old/Exercises/BarkingDog.java	/^    public static void main(String[] args) {$/;"	m	class:BarkingDog
+main	old/Exercises/DecimalComparator.java	/^    public static void main(String[] args) {$/;"	m	class:DecimalComparator
+main	old/Exercises/EqualSumChecker.java	/^    public static void main(String[] args) {$/;"	m	class:EqualSumChecker
+main	old/Exercises/IntEqualityPrinter.java	/^    public static void main(String[] args) {$/;"	m	class:IntEqualityPrinter
+main	old/Exercises/LeapYear.java	/^    public static void main(String[] args) {$/;"	m	class:LeapYear
+main	old/Exercises/MegaBytesConverter.java	/^    public static void main(String[] args) {$/;"	m	class:MegaBytesConverter
+main	old/Exercises/MinutesToYearsDaysCalculator.java	/^    public static void main(String[] args) {$/;"	m	class:MinutesToYearsDaysCalculator
+main	old/Exercises/PlayingCat.java	/^    public static void main(String[] args) {$/;"	m	class:PlayingCat
+main	old/Exercises/TeenNumberChecker.java	/^    public static void main(String[] args) {$/;"	m	class:TeenNumberChecker
+main	old/MethodOverloading.java	/^    public static void main(String[] args) {$/;"	m	class:MethodOverloading
+main	old/SecondsAndMinutesChallenge.java	/^    public static void main(String[] args) {$/;"	m	class:SecondsAndMinutesChallenge
+printEqual	old/Exercises/IntEqualityPrinter.java	/^    public static void printEqual(int x, int y, int z) {$/;"	m	class:IntEqualityPrinter
+printMegaBytesAndKiloBytes	old/Exercises/MegaBytesConverter.java	/^    public static void printMegaBytesAndKiloBytes(int kiloBytes) {$/;"	m	class:MegaBytesConverter
+printYearsAndDays	old/Exercises/MinutesToYearsDaysCalculator.java	/^    public static void printYearsAndDays(long minutes) {$/;"	m	class:MinutesToYearsDaysCalculator

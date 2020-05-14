@@ -1,17 +1,21 @@
 public class FloatAndDouble {
     public static void main(String[] args) {
 
-        // width of a int = 32 (4 bytes)
-        int myIntValue = 5 / 3;
-        System.out.println("myIntValue = " + myIntValue);
-
         // width of a float = 32 (4 bytes)
-        float myFloatValue = 5.0f / 3.0f;
-        System.out.println("myFloatValue = " + myFloatValue);
+        float minFloatValue = Float.MIN_VALUE;
+        float maxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float Minimum Value: " + minFloatValue);
+        System.out.println("Float Maximum Value: " + maxFloatValue);
 
         // width of a double = 64 (8 bytes)
-        double myDoubleValue = 5.0 / 3.0;
-        System.out.println("myDoubleValue = " + myDoubleValue);
+        double minDoubleValue = Double.MIN_VALUE;
+        double maxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double Minimum Value: " + minDoubleValue);
+        System.out.println("Double Maximum Value: " + maxDoubleValue);
+
+        int intValue = 5;
+        float floatValue = 5.25f;
+        double doubleValue = 5.25;
 
         // Challenge
         // Covert a given number of pounds to kilograms
