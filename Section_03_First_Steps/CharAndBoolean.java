@@ -1,13 +1,16 @@
 public class CharAndBoolean {
     public static void main(String[] args) {
-
         // width of 16 (2 bytes)
-        char myChar = 'D';
-        char myUnicodeChar = '\u0044';
-        System.out.println(myChar);
-        System.out.println(myUnicodechar);
+        char aChar = 'D';
+        char aUnicodeChar = '\u0044';   // also the letter D
+        System.out.println(aChar);
+        System.out.println(aUnicodeChar);
 
-        boolean myBoolean = false;
+        char copyrightChar = '\u00A9';
+        System.out.println(copyrightChar);
+
+
+        boolean aBoolean = false;
 
         // Challenge
         // 1. Find the code for the registered symbol

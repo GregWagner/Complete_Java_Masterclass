@@ -4,23 +4,23 @@ public class Operators {
         System.out.println("1 + 2 = " + result);
 
         int previousResult = result;
-        result = result - 1;
+        result -= 1;
         System.out.println(previousResult + " - 1 = " + result);
 
         previousResult = result;
-        result = result * 10;
+        result *= 10;
         System.out.println(previousResult + " * 10 = " + result);
 
         previousResult = result;
-        result = result / 5;
+        result /= 5;
         System.out.println(previousResult + " / 5 = " + result);
 
         previousResult = result;
-        result = result % 3;
+        result %= 3;
         System.out.println(previousResult + " % 3 = " + result);
 
         previousResult = result;
-        result = result + 1;
+        result += 1;
         System.out.println("Result is now " + result);
         ++result;
         System.out.println("Result is now " + result);
@@ -76,10 +76,10 @@ public class Operators {
         // 3. Add both numbers up and multiple by 100
         // 4. Use the remainder operator to figure out the remainder from
         //    the sum of #3 divided by 40
-        // 5. Create a boolean variabe that assigns the value true if the 
+        // 5. Create a boolean variabe that assigns the value true if the
         //    remainder  in #4 is 0, or false if it is not zero
         // 6. Output the remainder variable
-        // 7. Write an if-then statement that displays a message 
+        // 7. Write an if-then statement that displays a message
         //    "Got some remainder" if the boolean in #5  is not true
         double firstNumber = 20.0;
         double secondNumber = 80.0;

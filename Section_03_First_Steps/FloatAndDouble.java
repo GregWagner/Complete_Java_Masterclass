@@ -1,6 +1,7 @@
+import java.util.function.IntBinaryOperator;
+
 public class FloatAndDouble {
     public static void main(String[] args) {
-
         // width of a float = 32 (4 bytes)
         float minFloatValue = Float.MIN_VALUE;
         float maxFloatValue = Float.MAX_VALUE;
@@ -13,14 +14,17 @@ public class FloatAndDouble {
         System.out.println("Double Minimum Value: " + minDoubleValue);
         System.out.println("Double Maximum Value: " + maxDoubleValue);
 
-        int intValue = 5;
-        float floatValue = 5.25f;
-        double doubleValue = 5.25;
+        int intValue = 5 /2;
+        float floatValue = 5f / 2;
+        double doubleValue = 5.0 / 2;
+        System.out.println("Int: " + intValue);
+        System.out.println("Float: " + floatValue);
+        System.out.println("Double: " + doubleValue);
 
         // Challenge
         // Covert a given number of pounds to kilograms
         // 1. Create a variable to store the number of pounds
-        // 2. Calculate the number of Kilograms from the above and 
+        // 2. Calculate the number of Kilograms from the above and
         //    store it in a variable
         // 3. Print out the results
         //

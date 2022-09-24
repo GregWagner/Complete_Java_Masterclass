@@ -1,15 +1,15 @@
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("Hello Greg");
+        System.out.println("Hello, Greg");
 
-        int firstNumber = 10 + 5 + (2 * 10);
-        int secondNumber = 12;
-        int thirdNumber = firstNumber * 2;
-        int total = firstNumber + secondNumber + thirdNumber;
+        int firstNumer = (10 + 5)  + (2 * 10);
+        int secondNumer = 12;
+        int thirdNumer = firstNumer * 2;
+        int total = firstNumer + secondNumer + thirdNumer;
         System.out.println(total);
 
-        // challenge
-        int myLastOne = total - 1000;
-        System.out.println(myLastOne);
+        int lastOne = 1000 - total;
+        System.out.println(lastOne);
+
     }
 }
